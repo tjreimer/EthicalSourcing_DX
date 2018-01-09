@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Group_9__c</fullName>
+    <description>Product Group 9</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product Group 9</inlineHelpText>
+    <label>Product Group 9</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

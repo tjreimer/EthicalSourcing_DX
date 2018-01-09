@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_CAPA_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>FS CAPA Completed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Group  = FS FOLLOW UP and
+Factory Status  = ACTIVE  and
+Audit Date = NOT BLANK and
+FS Audit Required = NOT BLANK</inlineHelpText>
+    <label>FS CAPA Completed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

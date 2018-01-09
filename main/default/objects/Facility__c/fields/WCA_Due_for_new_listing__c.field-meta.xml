@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WCA_Due_for_new_listing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>WCA Due for new listing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Group = ANNUAL WCA and
+Factory Status  = ACTIVE and
+Audit Date = BLANK</inlineHelpText>
+    <label>WCA Due for new listing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

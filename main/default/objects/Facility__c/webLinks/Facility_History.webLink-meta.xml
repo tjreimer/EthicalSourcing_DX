@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_History</fullName>
+    <availability>online</availability>
+    <description>Facility History</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Facility History</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/25.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/25.0/apex.js")}
+var result = sforce.apex.execute("FacilityHistory","createFacilityHistory",{facilityNo:"{!Facility__c.Facility_Number__c}"});
+alert(result);
+window.location.reload();</url>
+</WebLink>

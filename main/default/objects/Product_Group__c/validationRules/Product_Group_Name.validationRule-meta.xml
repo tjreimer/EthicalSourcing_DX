@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Group_Name</fullName>
+    <active>true</active>
+    <description>Product Group Name  40 character restriction</description>
+    <errorConditionFormula>LEN(Name) > 40</errorConditionFormula>
+    <errorMessage>Product Group Name can only be 40 characters</errorMessage>
+</ValidationRule>

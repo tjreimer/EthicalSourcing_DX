@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engineering_audit_completed__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(ISPICKVAL(Engineering_Audit_Requested__c  , "Yes"),
+
+AND(NOT(ISBLANK(TEXT( Electrical_Safety_Audit__c ))),
+NOT(ISBLANK(TEXT(  Structural_Audit__c  ))),
+NOT(ISBLANK(TEXT(   Other_Audits__c   ))),
+NOT(ISBLANK(TEXT(   Fire_Safety_Audit__c   )))),
+
+ISPICKVAL(  Facility_Status__c  ,"Active"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Engineering audit completed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

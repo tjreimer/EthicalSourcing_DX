@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_CAPA_FS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Pending CAPA (FS)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Group = FS FOLLOW UP and
+FACTORY STATUS = ACTIVE and
+Audit Date = BLANK and
+CAPA Due Date >= TODAY() and
+FS Audi Required = NOT BLANK</inlineHelpText>
+    <label>Pending CAPA (FS)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

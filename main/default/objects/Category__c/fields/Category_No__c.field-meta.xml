@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_No__c</fullName>
+    <description>Category Number</description>
+    <displayFormat>CAT-{000000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>Category Number</inlineHelpText>
+    <label>Category No</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

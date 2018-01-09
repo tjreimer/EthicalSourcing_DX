@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Type__c</fullName>
+    <description>Audit Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Type</inlineHelpText>
+    <label>Audit Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Audit_Group__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>WCA</fullName>
+                <default>true</default>
+                <label>WCA</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>FS</fullName>
+                <default>false</default>
+                <label>FS</label>
+            </value>
+            <value>
+                <fullName>WCA CAPA (1 Mnth)</fullName>
+                <default>false</default>
+                <label>WCA CAPA (1 Mnth)</label>
+            </value>
+            <value>
+                <fullName>WCA CAPA (3 Mnth)</fullName>
+                <default>false</default>
+                <label>WCA CAPA (3 Mnth)</label>
+            </value>
+            <value>
+                <fullName>WCA CAPA (6 Mnth)</fullName>
+                <default>false</default>
+                <label>WCA CAPA (6 Mnth)</label>
+            </value>
+            <value>
+                <fullName>Other CAPA ( 6 Mnth)</fullName>
+                <default>false</default>
+                <label>Other CAPA ( 6 Mnth)</label>
+            </value>
+            <value>
+                <fullName>FS CAPA (1 Mnth)</fullName>
+                <default>false</default>
+                <label>FS CAPA (1 Mnth)</label>
+            </value>
+            <value>
+                <fullName>FS CAPA (3 Mnth)</fullName>
+                <default>false</default>
+                <label>FS CAPA (3 Mnth)</label>
+            </value>
+            <value>
+                <fullName>FS CAPA (6 Mnth)</fullName>
+                <default>false</default>
+                <label>FS CAPA (6 Mnth)</label>
+            </value>
+            <value>
+                <fullName>On Site Investigation</fullName>
+                <default>false</default>
+                <label>On Site Investigation</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Annual WCA</controllingFieldValue>
+            <valueName>WCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual WCA</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Periodic FS</controllingFieldValue>
+            <valueName>FS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WCA Follow Up CAPA</controllingFieldValue>
+            <valueName>WCA CAPA (1 Mnth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WCA Follow Up CAPA</controllingFieldValue>
+            <valueName>WCA CAPA (3 Mnth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WCA Follow Up CAPA</controllingFieldValue>
+            <valueName>WCA CAPA (6 Mnth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WCA Follow Up CAPA</controllingFieldValue>
+            <valueName>Other CAPA ( 6 Mnth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS Follow Up CAPA</controllingFieldValue>
+            <valueName>FS CAPA (1 Mnth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS Follow Up CAPA</controllingFieldValue>
+            <valueName>FS CAPA (3 Mnth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS Follow Up CAPA</controllingFieldValue>
+            <valueName>FS CAPA (6 Mnth)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Site Investigation</controllingFieldValue>
+            <valueName>On Site Investigation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

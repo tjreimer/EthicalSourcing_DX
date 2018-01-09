@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Google_Maps__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK("https://maps.google.com/maps?q=" &amp; Address_Line_1__c &amp; ',+' &amp; City__c &amp; ',+' &amp; RegionName__c &amp; ',+' &amp; CountryName__c,"Click to Plot on Maps")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Google Maps</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

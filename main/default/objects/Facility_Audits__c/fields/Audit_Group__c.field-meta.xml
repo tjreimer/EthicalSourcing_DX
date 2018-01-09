@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Group__c</fullName>
+    <description>Audit Group</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Group</inlineHelpText>
+    <label>Audit Group</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual WCA</fullName>
+                <default>true</default>
+                <label>Annual WCA</label>
+            </value>
+            <value>
+                <fullName>Periodic FS</fullName>
+                <default>false</default>
+                <label>Periodic FS</label>
+            </value>
+            <value>
+                <fullName>WCA Follow Up CAPA</fullName>
+                <default>false</default>
+                <label>WCA Follow Up CAPA</label>
+            </value>
+            <value>
+                <fullName>FS Follow Up CAPA</fullName>
+                <default>false</default>
+                <label>FS Follow Up CAPA</label>
+            </value>
+            <value>
+                <fullName>On Site Investigation</fullName>
+                <default>false</default>
+                <label>On Site Investigation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

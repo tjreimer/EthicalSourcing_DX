@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_Audit_Deadline_FS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Past Audit Deadline (FS)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Group = PERIODIC FS and
+Factory Status  = ACTIVE and
+Audit Date = NOT BLANK and
+Audit Date &lt; TODAY()-365*3 and
+FS Audit Required = NOT BLANK</inlineHelpText>
+    <label>Past Audit Deadline (FS)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

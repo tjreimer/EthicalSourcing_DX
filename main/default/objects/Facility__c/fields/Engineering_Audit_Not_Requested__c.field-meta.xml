@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engineering_Audit_Not_Requested__c</fullName>
+    <description>Engineering Audit not requested</description>
+    <externalId>false</externalId>
+    <formula>AND(
+OR(ISBLANK(TEXT( Engineering_Audit_Requested__c )),
+ISPICKVAL( Engineering_Audit_Requested__c  , "No")) ,
+ OR(ISPICKVAL( Facility_Status__c ,"Active") ,
+ISPICKVAL( Facility_Status__c ,"Manual Accept Shipments")))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Factory Status = ACTIVE or MANUAL ACCEPT SHIPMENTS and
+Engineering Audit Requested = NO or BLANK</inlineHelpText>
+    <label>Engineering Audit Not Requested</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

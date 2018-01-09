@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Findings__c</fullName>
+    <description>Check if number of audits with findings = 0</description>
+    <externalId>false</externalId>
+    <formula>IF( No_of_Audits_with_Findings__c =0,true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Check if number of audits with findings = 0</inlineHelpText>
+    <label>No Findings</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Compliant__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>FS Compliant</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Group = PERIODIC FS and
+Factory Status = ACTIVE and
+FS Audit Required = NOT BLANK and
+Audit Date  >= TODAY()-365*3</inlineHelpText>
+    <label>FS Compliant</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

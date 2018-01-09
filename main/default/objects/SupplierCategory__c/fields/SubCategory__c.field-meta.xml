@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubCategory__c</fullName>
+    <description>SubCategory</description>
+    <externalId>false</externalId>
+    <inlineHelpText>SubCatego</inlineHelpText>
+    <label>SubCategory</label>
+    <referenceTo>SubCategory__c</referenceTo>
+    <relationshipLabel>SupplierCategories</relationshipLabel>
+    <relationshipName>SupplierCategories</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

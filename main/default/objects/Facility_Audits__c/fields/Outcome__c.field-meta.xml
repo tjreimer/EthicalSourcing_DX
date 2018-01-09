@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome__c</fullName>
+    <description>Outcome</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+OR( 
+ ISPICKVAL( Audit_Type__c, "On Site Investigation" ) , 
+ ISBLANK(Audit_Date__c)), " ", 
+
+ IF (OR( ISPICKVAL( A_Finding__c , "Yes"), 
+ ISPICKVAL( B1_Findings__c , "Yes")),"High", 
+IF( OR(ISPICKVAL( B2_Finding__c , "Yes"), 
+ ISPICKVAL( B2_6_Findings__c , "Yes"), 
+ ISPICKVAL(  B2_T_Findings__c  ,"Yes")),"Medium","Low")))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Outcome</inlineHelpText>
+    <label>Outcome</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

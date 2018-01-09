@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Number__c</fullName>
+    <description>Facility Number</description>
+    <displayFormat>{0000000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>Facility Number</inlineHelpText>
+    <label>Facility Number</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

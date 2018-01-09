@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_CAPA_Deadline_FS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Past CAPA Deadline (FS)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Past CAPA Deadline (FS)
+Audit Group  = FS FOLLOW UP and
+Factory Status = ACTIVE and
+Audit Date = BLANK and
+CAPA Due Date  &lt; TODAY() (DUE DATE a result of selecting 1/3/6 months) and
+FS Audit Required  = NOT BLANK</inlineHelpText>
+    <label>Past CAPA Deadline (FS)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

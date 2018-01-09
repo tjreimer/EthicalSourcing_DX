@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Compliant_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(  ISPICKVAL(  Supplier_Status__c  , "Active"),
+NOT(ISBLANK(  Contract_Signed_Date__c  )),
+  Certificate_Of_Insurance__c  >= TODAY())</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Supplier Compliant Status</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

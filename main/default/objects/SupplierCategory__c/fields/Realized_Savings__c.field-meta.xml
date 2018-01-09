@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Realized_Savings__c</fullName>
+    <description>Realized Savings</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Realized Savings</inlineHelpText>
+    <label>Realized Savings</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_floors_in_each_building__c</fullName>
+    <description>Number of floors in each building</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of floors in each building</inlineHelpText>
+    <label>No of floors in each building</label>
+    <length>20</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

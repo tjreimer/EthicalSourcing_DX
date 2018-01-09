@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latest_FS_CAPA_Date__c</fullName>
+    <description>Latest FS CAPA Date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Latest FS CAPA Date</inlineHelpText>
+    <label>Latest FS CAPA Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

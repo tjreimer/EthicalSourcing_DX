@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAPA_Due_Date__c</fullName>
+    <description>CAPA Due Date</description>
+    <externalId>false</externalId>
+    <formula>CASE( 
+ Audit_Type__c, 
+"WCA CAPA (1 Mnth)", Audit_Request_Date__c  + 30, 
+"WCA CAPA (3 Mnth)", Audit_Request_Date__c  + 90, 
+"WCA CAPA (6 Mnth)", Audit_Request_Date__c  + 180, 
+"Other CAPA (6 Mnth)", Audit_Request_Date__c  + 180, 
+"FS CAPA (1 Mnth)", Audit_Request_Date__c  + 30, 
+"FS CAPA (3 Mnth)", Audit_Request_Date__c  + 90, 
+"FS CAPA (6 Mnth)", Audit_Request_Date__c  + 180, 
+ null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>CAPA Due Date</inlineHelpText>
+    <label>CAPA Due Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

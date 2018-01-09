@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Agreement__c</fullName>
+    <description>Supplier Agreement Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Supplier Agreement Type</inlineHelpText>
+    <label>Supplier Agreement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Existing</fullName>
+                <default>false</default>
+                <label>Existing</label>
+            </value>
+            <value>
+                <fullName>Resisted</fullName>
+                <default>false</default>
+                <label>Resisted</label>
+            </value>
+            <value>
+                <fullName>Addendum Agreement</fullName>
+                <default>false</default>
+                <label>Addendum Agreement</label>
+            </value>
+            <value>
+                <fullName>Specific Supplier Agreement</fullName>
+                <default>false</default>
+                <label>Specific Supplier Agreement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Removed_from_Green_List_Due_to_FS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Removed from Green List (Due to FS)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Removed from Green List (Due to FS)</inlineHelpText>
+    <label>Removed from Green List (Due to FS)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>PrdGrp1__c +  PrdGrp2__c +  PrdGrp3__c +  PrdGrp4__c +  PrdGrp5__c +  PrdGrp6__c +  PrdGrp7__c +  PrdGrp8__c +  PrdGrp9__c +  PrdGrp10__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_CAPA_Deadline_WCA__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Past CAPA Deadline (WCA)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Past CAPA Deadline (WCA)
+Audit Group  = WCA FOLLOW UP and
+Factory Status = ACTIVE and
+Audit Date = BLANK and
+CAPA Due Date  &lt; TODAY() (DUE DATE a result of selecting 1/3/6 months) and</inlineHelpText>
+    <label>Past CAPA Deadline (WCA)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_not_requested__c</fullName>
+    <description>Training not requested</description>
+    <externalId>false</externalId>
+    <formula>AND(OR(ISPICKVAL(Facility_Status__c, "Active"),ISPICKVAL(Facility_Status__c, "Manual Accept Shipments")),
+OR(
+ ISPICKVAL( FS_Training_request__c , "No"),
+ ISBLANK(TEXT(FS_Training_request__c)))
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Facility Status = Active or Manual Accept Shipments and
+FS Training Request = No or Blank</inlineHelpText>
+    <label>Training not requested</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latest_Periodic_FS_Date__c</fullName>
+    <description>Latest Periodic FS Date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Latest Periodic FS Date</inlineHelpText>
+    <label>Latest Periodic FS Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

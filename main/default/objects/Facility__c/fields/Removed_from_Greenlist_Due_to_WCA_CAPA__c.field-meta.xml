@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Removed_from_Greenlist_Due_to_WCA_CAPA__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Removed from Greenlist (Due to WCA CAPA)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Removed from Greenlist (Due to WCA CAPA)</inlineHelpText>
+    <label>Removed from Greenlist (Due to WCA CAPA)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

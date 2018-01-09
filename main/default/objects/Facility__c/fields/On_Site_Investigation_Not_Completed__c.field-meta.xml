@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Site_Investigation_Not_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>On site investigation not completed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Audit Group  = ON SITE INVESTIGATION and
+facility status = DELISTED or ACTIVE  and
+audit date = BLANK</inlineHelpText>
+    <label>On Site Investigation Not Completed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

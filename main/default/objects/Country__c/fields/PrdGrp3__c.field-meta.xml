@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrdGrp3__c</fullName>
+    <description>Product Group 3 Count</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product Group 3 Count</inlineHelpText>
+    <label>PrdGrp3</label>
+    <summarizedField>CountryScoreCard__c.PrdGrp3__c</summarizedField>
+    <summaryForeignKey>CountryScoreCard__c.Country__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

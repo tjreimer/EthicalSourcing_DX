@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_CAPA_Not_Requested__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(   Pending_CAPA_FS__c   = FALSE ,
+   Past_CAPA_Deadline_FS__c    = FALSE,
+              FS_CAPA_Completed__c    = FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FS CAPA Not Requested</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

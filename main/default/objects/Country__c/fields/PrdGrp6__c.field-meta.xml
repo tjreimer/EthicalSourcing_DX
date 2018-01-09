@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrdGrp6__c</fullName>
+    <description>Product Group 6 Count</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product Group 6 Count</inlineHelpText>
+    <label>PrdGrp6</label>
+    <summarizedField>CountryScoreCard__c.PrdGrp6__c</summarizedField>
+    <summaryForeignKey>CountryScoreCard__c.Country__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
