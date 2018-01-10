@@ -1,7 +1,7 @@
 {
   "packageDirectories": [
     {
-      "path": "Ethicalsourcing/main/default",
+      "path": "main/default",
       "default": true
     }
   ],
