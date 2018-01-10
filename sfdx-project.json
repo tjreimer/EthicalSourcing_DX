@@ -1,0 +1,11 @@
+{
+  "packageDirectories": [
+    {
+      "path": "Ethicalsourcing/main/default",
+      "default": true
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "41.0"
+}
