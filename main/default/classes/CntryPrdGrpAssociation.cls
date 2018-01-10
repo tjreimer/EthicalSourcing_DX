@@ -11,7 +11,7 @@ global class CntryPrdGrpAssociation {
    List<Product_Group__c> nproductGroup = [Select i.Name, i.PrdGrpAssociation__c
                                                   From Product_Group__c i];
     
-// Test Section  Section     
+// Test Section  Section   Tim Reimer  
 
  //  Update all countries with product groups
      List<Country__c> ncountry = [Select i.Name, i.Product_Group_1__c, i.Product_Group_2__c,
